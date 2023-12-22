@@ -2380,7 +2380,7 @@ class ConfigDict(ConfigBase, Mapping):
     """
 
     content_filters = {None, 'all', 'userdata'}
-
+    #LYD: __slots__ attribute wthin a class is used to declare a fixed set of attributes that the class will support
     __slots__ = (
         '_decl_order',
         '_declared',
